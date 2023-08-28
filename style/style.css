@@ -2,6 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -24,6 +25,10 @@ body {
   font-size: 45px;
   font-weight: 800;
 }
+/*hedder style here*/
+.header{
+    background-color: #FFF8F3;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -35,4 +40,12 @@ body {
   color: white;
   font-weight: 700;
   padding: 15px 35px;
+}
+.baner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.baner .portfolio-pic{
+  width: 550px;
 }
