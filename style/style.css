@@ -154,8 +154,25 @@ main section{
   margin-top: 50px;
 }
 footer{
-  background-color: #FFF8F3;;
+  background-color: #FFF8F3;
+  gap: 100px;
   display: flex;
   margin-top: 100px;
   padding: 120px 230px;
+}
+.footer-colum{
+  width: 50%;
+  text-align: left;
+}
+.ico-link a{
+  margin-right: 25px;
+}
+.contact input[type=text],.contact input[type=email],textarea{
+display: block;
+margin-bottom:35px ;
+padding: 18px 25px;
+border-radius: 5px;
+border: 0;
+color: #FFF;
+width: 100%;
 }
